@@ -57,5 +57,6 @@
       port: Number(process.env.PORT),
       host: true,
       open: true,
+      allowedHosts: ["app-0844.onrender.com"]
     },
   });
