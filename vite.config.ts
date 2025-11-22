@@ -55,6 +55,7 @@
     },
     server: {
       port: Number(process.env.PORT),
+      host: true,
       open: true,
     },
   });
